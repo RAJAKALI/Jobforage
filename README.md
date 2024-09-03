@@ -1,2 +1,2 @@
 # Jobforage
-Job portel
+Job portal
