@@ -2,7 +2,7 @@ import { useState } from 'react'
 import React from 'react'
 import {FaMapMarker} from 'react-icons/fa'
 const Joblisting = ({job}) => {
-    const [showFullDescription,setShowFullDescription]=useState(true);
+    const [showFullDescription,setShowFullDescription]=useState(false);
     let description=job.description;
     if(!showFullDescription){
         description=description.substring(0,90)+'...';
@@ -29,7 +29,7 @@ const Joblisting = ({job}) => {
           {job.location}
         </div>
         <a
-          href={`/job/${job.id}`}
+          href={`/jobs/${job.id}`}
           className="h-[36px] bg-indigo-500 hover:bg-indigo-600 text-white px-4 py-2 rounded-lg text-center text-sm"
         >
          Read More
