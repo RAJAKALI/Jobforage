@@ -9,7 +9,7 @@ import MainLayout from './Layouts/MainLayout';
 import JobsPage from './pages/JobsPage';
 import NotFound from './pages/NotFound';
 import AddJobPage from './pages/AddJobPage';
-import JobPage,{jobLoader} from './pages/jobpage';
+import JobPage,{jobLoader} from './pages/JobPage';
 import EditJobPage from './pages/EditJobPage';
 
 const App = () => {
